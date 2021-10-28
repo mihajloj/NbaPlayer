@@ -6,8 +6,11 @@
 //
 
 #import <XCTest/XCTest.h>
+#import <NbaPlayer/NbaPlayer.h>
 
 @interface NbaPlayerTests : XCTestCase
+
+@property MyPlayer *instance;
 
 @end
 
@@ -15,6 +18,7 @@
 
 - (void)setUp {
     // Put setup code here. This method is called before the invocation of each test method in the class.
+    _instance = [MyPlayer init];
 }
 
 - (void)tearDown {
@@ -24,6 +28,7 @@
 - (void)testExample {
     // This is an example of a functional test case.
     // Use XCTAssert and related functions to verify your tests produce the correct results.
+    _instance = [[MyPlayer alloc]initWithInteger:5000];
 }
 
 - (void)testPerformanceExample {

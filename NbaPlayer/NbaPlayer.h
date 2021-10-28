@@ -6,6 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <MyPlayer.h>
 
 //! Project version number for NbaPlayer.
 FOUNDATION_EXPORT double NbaPlayerVersionNumber;

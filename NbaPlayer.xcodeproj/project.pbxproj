@@ -18,6 +18,8 @@
 		041C210B272AB0430069220E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041C210A272AB0430069220E /* Assets.xcassets */; };
 		041C210E272AB0430069220E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041C210C272AB0430069220E /* LaunchScreen.storyboard */; };
 		041C2111272AB0430069220E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 041C2110272AB0430069220E /* main.m */; };
+		041C2117272AC3A30069220E /* MyPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 041C2115272AC3A30069220E /* MyPlayer.h */; };
+		041C2118272AC3A30069220E /* MyPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 041C2116272AC3A30069220E /* MyPlayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		041C210D272AB0430069220E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		041C210F272AB0430069220E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		041C2110272AB0430069220E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		041C2115272AC3A30069220E /* MyPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyPlayer.h; sourceTree = "<group>"; };
+		041C2116272AC3A30069220E /* MyPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyPlayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 			children = (
 				041C20E1272AAFBF0069220E /* NbaPlayer.h */,
 				041C20E2272AAFBF0069220E /* NbaPlayer.docc */,
+				041C2115272AC3A30069220E /* MyPlayer.h */,
+				041C2116272AC3A30069220E /* MyPlayer.m */,
 			);
 			path = NbaPlayer;
 			sourceTree = "<group>";
@@ -139,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				041C20EF272AAFBF0069220E /* NbaPlayer.h in Headers */,
+				041C2117272AC3A30069220E /* MyPlayer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				041C2118272AC3A30069220E /* MyPlayer.m in Sources */,
 				041C20E3272AAFBF0069220E /* NbaPlayer.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
