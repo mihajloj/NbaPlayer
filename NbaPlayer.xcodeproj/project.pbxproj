@@ -20,6 +20,7 @@
 		041C2111272AB0430069220E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 041C2110272AB0430069220E /* main.m */; };
 		041C2117272AC3A30069220E /* MyPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 041C2115272AC3A30069220E /* MyPlayer.h */; };
 		041C2118272AC3A30069220E /* MyPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 041C2116272AC3A30069220E /* MyPlayer.m */; };
+		041C211A272AC8990069220E /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 041C2119272AC8990069220E /* .travis.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		041C2110272AB0430069220E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		041C2115272AC3A30069220E /* MyPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyPlayer.h; sourceTree = "<group>"; };
 		041C2116272AC3A30069220E /* MyPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyPlayer.m; sourceTree = "<group>"; };
+		041C2119272AC8990069220E /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .travis.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		041C20D4272AAFBF0069220E = {
 			isa = PBXGroup;
 			children = (
+				041C2119272AC8990069220E /* .travis.yml */,
 				041C20E0272AAFBF0069220E /* NbaPlayer */,
 				041C20EC272AAFBF0069220E /* NbaPlayerTests */,
 				041C20FD272AB0420069220E /* NbaPlayerExample */,
@@ -250,6 +253,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				041C211A272AC8990069220E /* .travis.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
