@@ -9,6 +9,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
   s.source_files = 'NbaPlayer/**/*.{h,m}'
   s.frameworks         = 'Foundation', 'UIKit'
-  s.source           = { :git => 'git@github.com:mihajloj/NbaPlayer.git', :branch => 'xyz', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/mihajloj/NbaPlayer.git', :branch => 'xyz', :tag => s.version.to_s }
 
 end
