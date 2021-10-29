@@ -6,7 +6,7 @@
 //
 
 #import <XCTest/XCTest.h>
-#import <NbaPlayer/NbaPlayer.h>
+#import <NbaPlayer/MyPlayer.h>
 
 @interface NbaPlayerTests : XCTestCase
 
@@ -18,7 +18,6 @@
 
 - (void)setUp {
     // Put setup code here. This method is called before the invocation of each test method in the class.
-    _instance = [MyPlayer init];
 }
 
 - (void)tearDown {

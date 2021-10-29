@@ -6,7 +6,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <MyPlayer.h>
 
 //! Project version number for NbaPlayer.
 FOUNDATION_EXPORT double NbaPlayerVersionNumber;
@@ -16,4 +15,4 @@ FOUNDATION_EXPORT const unsigned char NbaPlayerVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <NbaPlayer/PublicHeader.h>
 
-
+#import <NbaPlayer/MyPlayer.h>

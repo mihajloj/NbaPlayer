@@ -18,7 +18,7 @@
 		041C210B272AB0430069220E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041C210A272AB0430069220E /* Assets.xcassets */; };
 		041C210E272AB0430069220E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041C210C272AB0430069220E /* LaunchScreen.storyboard */; };
 		041C2111272AB0430069220E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 041C2110272AB0430069220E /* main.m */; };
-		041C2117272AC3A30069220E /* MyPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 041C2115272AC3A30069220E /* MyPlayer.h */; };
+		041C2117272AC3A30069220E /* MyPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 041C2115272AC3A30069220E /* MyPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		041C2118272AC3A30069220E /* MyPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 041C2116272AC3A30069220E /* MyPlayer.m */; };
 		041C211A272AC8990069220E /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 041C2119272AC8990069220E /* .travis.yml */; };
 /* End PBXBuildFile section */
