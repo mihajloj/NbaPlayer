@@ -1,6 +1,5 @@
 # NbaPlayer
 
-[![CI Status](https://img.shields.io/travis/Mihajlo Jezdic/NbaPlayer.svg?style=flat)](https://travis-ci.org/Mihajlo Jezdic/NbaPlayer)
 [![Version](https://img.shields.io/cocoapods/v/NbaPlayer.svg?style=flat)](https://cocoapods.org/pods/NbaPlayer)
 [![License](https://img.shields.io/cocoapods/l/NbaPlayer.svg?style=flat)](https://cocoapods.org/pods/NbaPlayer)
 [![Platform](https://img.shields.io/cocoapods/p/NbaPlayer.svg?style=flat)](https://cocoapods.org/pods/NbaPlayer)
