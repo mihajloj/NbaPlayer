@@ -17,6 +17,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 -(id) initWithInteger: (int) initialScore;
 
+-(void) displayWebview;
+
 
 @end
 

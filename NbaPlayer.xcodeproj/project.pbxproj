@@ -23,6 +23,7 @@
 		041C211A272AC8990069220E /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 041C2119272AC8990069220E /* .travis.yml */; };
 		A32D7BD927300F4E00F02EF3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A32D7BD827300F4E00F02EF3 /* README.md */; };
 		A32D7BDB2730113000F02EF3 /* NbaPlayer.podspec in Resources */ = {isa = PBXBuildFile; fileRef = A32D7BDA2730113000F02EF3 /* NbaPlayer.podspec */; };
+		A3FDCE6C2755002700FB14A7 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3FDCE6B2755002700FB14A7 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		041C2119272AC8990069220E /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .travis.yml; sourceTree = "<group>"; };
 		A32D7BD827300F4E00F02EF3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A32D7BDA2730113000F02EF3 /* NbaPlayer.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NbaPlayer.podspec; sourceTree = "<group>"; };
+		A3FDCE6B2755002700FB14A7 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk/System/iOSSupport/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3FDCE6C2755002700FB14A7 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +99,7 @@
 				041C20EC272AAFBF0069220E /* NbaPlayerTests */,
 				041C20FD272AB0420069220E /* NbaPlayerExample */,
 				041C20DF272AAFBF0069220E /* Products */,
+				A3FDCE6A2755002700FB14A7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -144,6 +148,14 @@
 				041C2110272AB0430069220E /* main.m */,
 			);
 			path = NbaPlayerExample;
+			sourceTree = "<group>";
+		};
+		A3FDCE6A2755002700FB14A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3FDCE6B2755002700FB14A7 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
