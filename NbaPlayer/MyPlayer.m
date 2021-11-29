@@ -8,6 +8,10 @@
 #import "MyPlayer.h"
 #import <WebKit/WebKit.h>
 
+@interface MyPlayer ()
+@property WKWebView* webView;
+@end
+
 @implementation MyPlayer
 
 -(id)init{
